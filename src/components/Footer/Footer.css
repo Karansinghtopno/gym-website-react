@@ -27,3 +27,15 @@
 .logo-f>img{
     width: 10rem;
 }
+@media screen and (max-width:768px){
+    .Footer-container{
+        /* display: flex; */
+        position: relative;
+        top: 200px;
+    }
+    .social-links{
+        padding: 0;
+        display: flex;
+        margin: 0;
+    }
+}
